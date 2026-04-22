@@ -1,0 +1,452 @@
+[
+  {
+    "ts": "2026-04-21T19:05:25.817511",
+    "event": "CHAT",
+    "detail": "introduce urself",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:05:42.598520",
+    "event": "CHAT",
+    "detail": "open whatsapp",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:05:51.891999",
+    "event": "CHAT",
+    "detail": "its not",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:06:43.519874",
+    "event": "PC_ACTION",
+    "detail": "screenshot:",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:06:54.309267",
+    "event": "CHAT",
+    "detail": "what can you do",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:09:09.971935",
+    "event": "CHAT",
+    "detail": "look my weather in palladam",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:40:46.897343",
+    "event": "CHAT",
+    "detail": "hello",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:40:56.042902",
+    "event": "PC_CHAT_ACTION",
+    "detail": "system_info",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:40:56.553807",
+    "event": "CHAT",
+    "detail": "tell about battery",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:43:17.138385",
+    "event": "CHAT",
+    "detail": "already installed",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:43:36.824128",
+    "event": "CHAT",
+    "detail": "about weather",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:44:19.517723",
+    "event": "PC_CHAT_ACTION",
+    "detail": "open:spotify",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:44:19.785090",
+    "event": "CHAT",
+    "detail": "open spotify",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:44:35.837955",
+    "event": "PC_CHAT_ACTION",
+    "detail": "open:the music",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:44:36.172250",
+    "event": "CHAT",
+    "detail": "just start the music",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:45:08.251036",
+    "event": "PC_CHAT_ACTION",
+    "detail": "open:whatsapp",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:45:08.612547",
+    "event": "CHAT",
+    "detail": "open WhatsApp",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:45:30.115997",
+    "event": "CHAT",
+    "detail": "can you make a document for me",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:45:49.857367",
+    "event": "CHAT",
+    "detail": "name a test",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:46:01.174449",
+    "event": "CHAT",
+    "detail": "parties",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:46:05.056283",
+    "event": "CHAT",
+    "detail": "show me",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:46:18.118944",
+    "event": "PC_ACTION",
+    "detail": "screenshot:",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:46:26.888862",
+    "event": "PC_CHAT_ACTION",
+    "detail": "open:windows explorer",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:46:27.268976",
+    "event": "CHAT",
+    "detail": "open Windows Explorer",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:46:47.153251",
+    "event": "CHAT",
+    "detail": "what else can you do",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:47:01.160477",
+    "event": "CHAT",
+    "detail": "help me in learning mechanical system design",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:47:33.339674",
+    "event": "PC_CHAT_ACTION",
+    "detail": "screenshot",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:47:33.720586",
+    "event": "CHAT",
+    "detail": "screenshot the screen and send it to me in my chat",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:47:55.855463",
+    "event": "CHAT",
+    "detail": "what is not there",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:48:12.087085",
+    "event": "CHAT",
+    "detail": "ok stop stop stop stop stop stop",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:50:46.886262",
+    "event": "CHAT",
+    "detail": "tell about me",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:50:59.652544",
+    "event": "CHAT",
+    "detail": "why are you sending noted",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:51:05.397962",
+    "event": "CHAT",
+    "detail": "ok",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:51:12.373563",
+    "event": "CHAT",
+    "detail": "ask me any questions",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:51:21.435532",
+    "event": "CHAT",
+    "detail": "going idle im in the mood to learn",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:51:29.440893",
+    "event": "CHAT",
+    "detail": "mechanical system design",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:51:34.794257",
+    "event": "PC_ACTION",
+    "detail": "list_files:Desktop",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:51:44.249405",
+    "event": "PC_ACTION",
+    "detail": "open_app:spotify",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:51:55.236715",
+    "event": "CHAT",
+    "detail": "play on spotigy",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:52:00.496615",
+    "event": "CHAT",
+    "detail": "anything",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:52:11.932962",
+    "event": "CHAT",
+    "detail": "is it playin",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:53:43.160220",
+    "event": "CHAT",
+    "detail": "how i can make you online",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:53:59.022696",
+    "event": "CHAT",
+    "detail": "can  u access the website and send me report on me",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:54:08.335141",
+    "event": "CHAT",
+    "detail": "report on shri sanjay a student",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:54:17.338414",
+    "event": "CHAT",
+    "detail": "okayy",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:54:18.922311",
+    "event": "CHAT",
+    "detail": "googd",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:54:24.917464",
+    "event": "PC_CHAT_ACTION",
+    "detail": "open:in startup",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:54:25.273789",
+    "event": "CHAT",
+    "detail": "can u open in startup",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:54:32.938333",
+    "event": "CHAT",
+    "detail": "sure?",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:54:39.465842",
+    "event": "PC_CHAT_ACTION",
+    "detail": "open:now",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:54:41.042062",
+    "event": "CHAT",
+    "detail": "resstart now",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:54:44.068154",
+    "event": "CHAT",
+    "detail": "yes",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T19:54:54.513463",
+    "event": "CHAT",
+    "detail": "bye",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T20:04:22.757673",
+    "event": "CHAT",
+    "detail": "hello",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T20:06:04.959902",
+    "event": "CHAT",
+    "detail": "hydrated",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T20:06:23.128196",
+    "event": "CHAT",
+    "detail": "hello hello",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T20:06:49.031392",
+    "event": "CHAT",
+    "detail": "hey Friday",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T20:07:04.778228",
+    "event": "CHAT",
+    "detail": "can you tell me what is the weather",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T20:07:19.494658",
+    "event": "CHAT",
+    "detail": "can you tell me weather in Palladam Saddam",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T20:07:28.783341",
+    "event": "CHAT",
+    "detail": "tell me weather for Palladam",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T20:10:03.203080",
+    "event": "PC_CHAT_ACTION",
+    "detail": "open:spotify",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T20:10:03.688727",
+    "event": "CHAT",
+    "detail": "open spotify",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T20:10:15.253973",
+    "event": "PC_CHAT_ACTION",
+    "detail": "open:whatsapp",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T20:10:15.646830",
+    "event": "CHAT",
+    "detail": "open WhatsApp",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T20:37:50.390503",
+    "event": "CHAT",
+    "detail": "a Friday",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T20:38:04.574439",
+    "event": "CHAT",
+    "detail": "hello Friday",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T20:38:43.569311",
+    "event": "CHAT",
+    "detail": "a Friday can you tell me the weather in Palladam Tamil Nadu",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T20:39:03.789143",
+    "event": "PC_CHAT_ACTION",
+    "detail": "open:spotify",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T20:39:04.262311",
+    "event": "CHAT",
+    "detail": "open spotify",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T20:39:21.666439",
+    "event": "PC_CHAT_ACTION",
+    "detail": "screenshot",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T20:39:22.364057",
+    "event": "CHAT",
+    "detail": "it can also take screenshot take screenshot",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T20:39:47.203777",
+    "event": "CHAT",
+    "detail": "your Friday what else can you do",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T20:40:12.194694",
+    "event": "PC_CHAT_ACTION",
+    "detail": "system_info",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T20:40:12.747562",
+    "event": "CHAT",
+    "detail": "can you tell about battery",
+    "ip": "127.0.0.1"
+  },
+  {
+    "ts": "2026-04-21T20:40:27.364762",
+    "event": "CHAT",
+    "detail": "can you tell about me",
+    "ip": "127.0.0.1"
+  }
+]

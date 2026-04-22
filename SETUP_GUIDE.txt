@@ -1,0 +1,196 @@
+═══════════════════════════════════════════════════════════════
+  F.R.I.D.A.Y. — SETUP GUIDE (Windows)
+═══════════════════════════════════════════════════════════════
+
+STEP 1: Create a folder for F.R.I.D.A.Y.
+────────────────────────────────────────────────────────────
+
+Create a new folder anywhere on your computer, e.g.:
+  C:\friday-ai\
+
+Put BOTH files in that folder:
+  ✓ server.py
+  ✓ index.html
+
+Your folder should look like:
+  C:\friday-ai\
+    ├── server.py
+    ├── index.html
+    └── .env  (you'll create this next)
+
+
+STEP 2: Create the .env file
+────────────────────────────────────────────────────────────
+
+In the same C:\friday-ai\ folder, create a text file called `.env`
+
+RIGHT-CLICK in the folder → New → Text Document → name it `.env`
+
+Open it and paste:
+
+─────────────────────────────────────────────────────────────
+GROQ_API_KEY=gsk_YOUR_GROQ_API_KEY_HERE
+TAVILY_KEY=tvly_YOUR_TAVILY_API_KEY_HERE
+FRIDAY_SECRET=my_super_secret_password_12345
+─────────────────────────────────────────────────────────────
+
+Replace:
+  • gsk_YOUR_GROQ_API_KEY_HERE  →  Your actual GROQ key (get it from groq.com/openrouter)
+  • tvly_YOUR_TAVILY_API_KEY_HERE  →  Your actual Tavily key (get it from tavily.com)
+  • my_super_secret_password_12345  →  Any random string (doesn't matter, just for signing sessions)
+
+Save the file.
+
+
+STEP 3: Open Command Prompt
+────────────────────────────────────────────────────────────
+
+Press: Windows Key + R
+Type: cmd
+Press: Enter
+
+You'll see a black terminal window.
+
+
+STEP 4: Navigate to your folder
+────────────────────────────────────────────────────────────
+
+In the terminal, type:
+
+  cd C:\friday-ai
+
+(or whatever path you used)
+
+Press Enter.
+
+
+STEP 5: Install Python packages
+────────────────────────────────────────────────────────────
+
+Copy-paste this into the terminal:
+
+  pip install fastapi uvicorn groq httpx python-dotenv
+
+Press Enter and wait for it to finish (1-2 minutes).
+
+
+STEP 6: Run the server
+────────────────────────────────────────────────────────────
+
+Type:
+
+  python server.py
+
+Press Enter.
+
+You should see:
+
+  ╔══════════════════════════════╗
+  ║  F.R.I.D.A.Y. — Online       ║
+  ╚══════════════════════════════╝
+  →  http://localhost:8000
+
+
+STEP 7: Open in your browser
+────────────────────────────────────────────────────────────
+
+Open Google Chrome (or Firefox, Edge, etc.)
+
+Go to:  http://localhost:8000
+
+You should see the PIN lock screen.
+
+
+TROUBLESHOOTING
+════════════════════════════════════════════════════════════
+
+❌ "python: command not found"
+   → Python not installed. Download from python.org, install it.
+   → During install, CHECK the box "Add Python to PATH"
+
+❌ "ModuleNotFoundError: No module named 'fastapi'"
+   → Run: pip install fastapi uvicorn groq httpx python-dotenv
+   → Wait for all packages to install.
+
+❌ "FileNotFoundError: [Errno 2] No such file or directory: 'index.html'"
+   → index.html and server.py are NOT in the same folder
+   → Make sure BOTH files are in C:\friday-ai\ (or your folder)
+
+❌ "Port 8000 is already in use"
+   → Another app is using port 8000
+   → Option A: Kill the other app using port 8000
+   → Option B: Change port in server.py line ~630:
+       uvicorn.run("server:app", host="127.0.0.1", port=8001, reload=True)
+     Then open: http://localhost:8001
+
+❌ "GROQ_API_KEY not configured"
+   → Your .env file isn't being read
+   → Make sure .env is in the SAME folder as server.py
+   → Restart the server (Ctrl+C, then python server.py again)
+
+❌ "Connection refused" when opening http://localhost:8000
+   → Server isn't running
+   → Check the terminal — do you see "F.R.I.D.A.Y. — Online"?
+   → If not, make sure you ran: python server.py
+
+❌ PIN lock screen appears but doesn't respond to PIN entry
+   → You're on the first launch — set a PIN (any 6 digits)
+   → Example: 123456
+   → Confirm it again
+   → Boot sequence will run
+   → Main UI will appear
+
+
+GETTING API KEYS
+════════════════════════════════════════════════════════════
+
+GROQ (free, fast LLM):
+  1. Go to: https://console.groq.com
+  2. Sign up (free)
+  3. Go to API Keys
+  4. Copy your key → paste into .env as GROQ_API_KEY
+
+TAVILY (free, web search):
+  1. Go to: https://tavily.com
+  2. Sign up (free)
+  3. Get your API key
+  4. Paste into .env as TAVILY_KEY
+
+
+FIRST TIME USE
+════════════════════════════════════════════════════════════
+
+1. Open http://localhost:8000
+2. PIN lock screen appears
+3. Enter any 6-digit PIN (e.g., 111111)
+4. Confirm the same PIN
+5. Boot sequence runs
+6. Main UI loads with lock icon = security is ACTIVE
+7. Fill in your profile (name, goals, etc.)
+8. Start chatting with FRIDAY!
+
+
+STOPPING THE SERVER
+════════════════════════════════════════════════════════════
+
+In the terminal, press: Ctrl + C
+
+The server will shut down. To restart, type:  python server.py
+
+
+TIPS
+════════════════════════════════════════════════════════════
+
+• Your profile is saved locally in: chotu_profile.json
+• Chat history is in: chotu_memory.json
+• Tasks/habits/expenses are in: chotu_tracker.json
+• Security audit log is in: chotu_audit.json
+  (all in the C:\friday-ai\ folder)
+
+• If you want to RESET everything, just delete these JSON files
+  (then restart the server)
+
+• The PIN is hashed and stored in your browser's localStorage
+  (not sent anywhere)
+
+═══════════════════════════════════════════════════════════════
