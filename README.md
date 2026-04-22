@@ -14,12 +14,6 @@ No cloud subscriptions. No telemetry. Your data stays on your disk.
 
 ---
 
-## Screenshots
-
-> *Boot screen → PIN lock → Chat interface with PC control panel*
-
-*(Add your own screenshots here once running)*
-
 ---
 
 ## Features
